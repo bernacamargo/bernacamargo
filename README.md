@@ -19,7 +19,7 @@ A **remote-jobs platform for the Brazilian market** that I built and run solo �
 - **Platform** — Spring Boot REST API in **Kotlin** (JVM 21) + a **Python** scraping worker communicating over **RabbitMQ**; **PostgreSQL** (pg_trgm) + **Redis** for cache and rate limiting; **Angular** frontend with SSR and a key-holding BFF
 - **Data pipeline** — three-tier extraction (JSON/RSS → CSS selectors → LLM fallback) across 8 ToS-vetted sources, normalized and deduplicated: 600+ live jobs
 - **AI layer** — Gemini-powered CV→job fit scoring (0–100) and AI-assisted cover letters, privacy-first by design: CVs are analyzed in the moment and never stored
-- **AI harness** — repo-level `AGENTS.md` with a documented source-of-truth hierarchy, 16 project-specific agent skills, worktree-based parallel agent sessions, MCP integrations
+- **AI harness** — repo-level `AGENTS.md` with a documented source-of-truth hierarchy, 16 project-specific agent skills, worktree-based parallel agent sessions, MCP integrations — the [open-source playbook](#ai-native-workflow) breaks it down below
 - **Operations** — Caddy reverse proxy with hardened security headers on my own VPS; 730+ conventional commits in the first three weeks
 
 ## AI-native workflow
