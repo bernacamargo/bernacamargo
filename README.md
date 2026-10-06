@@ -45,7 +45,3 @@ Shipping a platform solo at this speed takes a **harness**, not just a chat wind
 - 🚀 Running [vagaremota.dev](https://vagaremota.dev) — remote-jobs platform built solo with AI agents (see above)
 - 🔨 Just shipped **two MCP servers** — same protocol, two ecosystems: [iam-mcp-server](https://github.com/bernacamargo/iam-mcp-server) (Kotlin + Spring AI, identity governance) and [incident-mcp-server](https://github.com/bernacamargo/incident-mcp-server) (Go + official go-sdk, on-call response). Both policy-enforced, audited, tested, and released.
 - 📫 [LinkedIn](https://www.linkedin.com/in/bernardocamargo/)
-
----
-
-*My day-job repos live in private orgs, so the contribution graph here undercounts — the pinned repositories below are mine.*
