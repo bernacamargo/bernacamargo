@@ -1,16 +1,16 @@
 # Hi, I'm Bernardo Camargo 👋
 
-**Senior Software Engineer** — 10 years building high-scale distributed systems in Proptech and Fintech, now focused on productionizing AI services.
+**Senior Software Engineer** — 10 years building and operating distributed systems across Proptech, Fintech, and AI products.
 
-I care about the boring things that make systems work in production: observability, resilience patterns, and clean boundaries between domain and infrastructure.
+I care about the boring things that make systems work in production: observability, resilience patterns, and clean boundaries between domain and infrastructure. That toolkit transfers — any domain, any kind of problem a backend can throw at you.
 
 ## What I work with
 
-**🤖 AI in production** — LLM orchestration and [Model Context Protocol](https://modelcontextprotocol.io) agents wired into enterprise data with strict access control; sub-second agent workflows with token-cost optimization; AI-service observability with Grafana, Prometheus, and OpenTelemetry.
+**🤖 AI in production** — Designing and running LLM-orchestrated agents with [Model Context Protocol](https://modelcontextprotocol.io) against real enterprise data: access control, cost-aware workflows, and observability with Grafana, Prometheus, and OpenTelemetry that makes model behavior debuggable.
 
-**🏗️ Platform & IaC** — Architected a custom **Terraform Provider in Go** on the SailPoint IdentityNow API, turning manual access governance into a self-service IaC product: provisioning went from **5 days to seconds for 6,000+ employees**.
+**🏗️ Platform & IaC** — Building custom **Terraform providers in Go** and turning manual operations into self-service platforms: identity governance (SailPoint IdentityNow), codified workflows, and API integrations other teams can consume safely.
 
-**📨 Event-driven backends** — Kafka and Debezium CDC pipelines sustaining **2.5k RPS at sub-50ms latency**, AWS SQS/Lambda microservices in Hexagonal Architecture, and a real-time PIX transaction-limit engine with circuit breakers, retries, and timeouts.
+**📨 Event-driven backends** — Designing event-driven microservices with **Kafka**, **Debezium CDC**, and AWS SQS/Lambda in Hexagonal Architecture; real-time transaction systems hardened with circuit breakers, retries, and timeouts.
 
 ## Side project — [VagaRemota.dev](https://vagaremota.dev)
 
