@@ -16,9 +16,10 @@ I care about the boring things that make systems work in production: observabili
 
 A **remote-jobs platform for the Brazilian market** that I built and run solo — engineered end-to-end **with AI agents** (Cursor, ZCode). It's the "AI in production" pillar above, shipped as a real product instead of a slide.
 
-- **Aggregation pipeline** — collects listings from 8 trusted sources and normalizes + deduplicates them into a clean catalog (600+ live jobs at any time)
-- **AI layer** — CV→job fit scoring (0–100) with ephemeral processing: CVs are analyzed in the moment and never stored; AI-assisted cover letters for Pro users
-- **Live product, not a demo** — real users, paid plans, and live stats published on the homepage
+- **Backend** — Node.js + Express serving a server-rendered multi-page UI with session auth, and request-ID tracing on every call
+- **Data pipeline** — aggregates 8 heterogeneous job sources, normalizes their schemas and deduplicates them into one clean catalog: 600+ live jobs, refreshed continuously
+- **AI layer** — Gemini-powered CV→job fit scoring (0–100) and AI-assisted cover letters, privacy-first by design: CVs are analyzed in the moment and never stored
+- **Operations** — served through a Caddy reverse proxy with hardened security headers (CSP, HSTS, nosniff) on my own VPS; a live product with real users and paid Pro plans
 
 ## Languages
 
