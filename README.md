@@ -8,9 +8,9 @@ I care about the boring things that make systems work in production: observabili
 
 **🔌 MCP tools & agent infrastructure** — Building [Model Context Protocol](https://modelcontextprotocol.io) servers that turn real systems into typed, documented tools agents can call safely: schema-first design in Kotlin and Go, server-side policy with access control and audit trails, and observability (Grafana, Prometheus, OpenTelemetry) on every tool call.
 
-**🏗️ Platform & IaC** — Building custom **Terraform providers in Go** and turning manual operations into self-service platforms: identity governance (SailPoint IdentityNow), codified workflows, and API integrations other teams can consume safely.
-
 **📨 Event-driven backends** — Designing event-driven microservices with **Kafka**, **Debezium CDC**, and AWS SQS/Lambda in Hexagonal Architecture; real-time transaction systems hardened with circuit breakers, retries, and timeouts.
+
+**🏗️ Platform & IaC** — Building custom **Terraform providers in Go** and turning manual operations into self-service platforms: identity governance (SailPoint IdentityNow), codified workflows, and API integrations other teams can consume safely.
 
 ## Side project — [VagaRemota.dev](https://vagaremota.dev)
 
