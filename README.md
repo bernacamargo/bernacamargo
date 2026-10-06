@@ -6,7 +6,7 @@ I care about the boring things that make systems work in production: observabili
 
 ## What I work with
 
-**🤖 AI in production** — Designing and running LLM-orchestrated agents with [Model Context Protocol](https://modelcontextprotocol.io) against real enterprise data: access control, cost-aware workflows, and observability with Grafana, Prometheus, and OpenTelemetry that makes model behavior debuggable.
+**🔌 MCP tools & agent infrastructure** — Building [Model Context Protocol](https://modelcontextprotocol.io) servers that turn real systems into typed, documented tools agents can call safely: schema-first design in Kotlin and Go, server-side policy with access control and audit trails, and observability (Grafana, Prometheus, OpenTelemetry) on every tool call.
 
 **🏗️ Platform & IaC** — Building custom **Terraform providers in Go** and turning manual operations into self-service platforms: identity governance (SailPoint IdentityNow), codified workflows, and API integrations other teams can consume safely.
 
