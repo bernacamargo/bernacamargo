@@ -32,7 +32,7 @@ A **remote-jobs platform for the Brazilian market** that I built and run solo �
 ## Now
 
 - 🎓 Postgraduate degree in **Software Architecture** @ FIAP (in progress)
-- 🚀 Running [vagaremota.dev](https://vagaremota.dev) — remote-jobs platform built solo with AI agents (details below)
+- 🚀 Running [vagaremota.dev](https://vagaremota.dev) — remote-jobs platform built solo with AI agents (see above)
 - 🔨 Just shipped **two MCP servers** — same protocol, two ecosystems: [iam-mcp-server](https://github.com/bernacamargo/iam-mcp-server) (Kotlin + Spring AI, identity governance) and [incident-mcp-server](https://github.com/bernacamargo/incident-mcp-server) (Go + official go-sdk, on-call response). Both policy-enforced, audited, tested, and released.
 - 📫 [LinkedIn](https://www.linkedin.com/in/bernardocamargo/)
 
