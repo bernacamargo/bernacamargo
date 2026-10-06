@@ -12,6 +12,14 @@ I care about the boring things that make systems work in production: observabili
 
 **📨 Event-driven backends** — Kafka and Debezium CDC pipelines sustaining **2.5k RPS at sub-50ms latency**, AWS SQS/Lambda microservices in Hexagonal Architecture, and a real-time PIX transaction-limit engine with circuit breakers, retries, and timeouts.
 
+## Side project — [VagaRemota.dev](https://vagaremota.dev)
+
+A **remote-jobs platform for the Brazilian market** that I built and run solo — engineered end-to-end **with AI agents** (Cursor, ZCode). It's the "AI in production" pillar above, shipped as a real product instead of a slide.
+
+- **Aggregation pipeline** — collects listings from 8 trusted sources and normalizes + deduplicates them into a clean catalog (600+ live jobs at any time)
+- **AI layer** — CV→job fit scoring (0–100) with ephemeral processing: CVs are analyzed in the moment and never stored; AI-assisted cover letters for Pro users
+- **Live product, not a demo** — real users, paid plans, and live stats published on the homepage
+
 ## Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -24,6 +32,7 @@ I care about the boring things that make systems work in production: observabili
 ## Now
 
 - 🎓 Postgraduate degree in **Software Architecture** @ FIAP (in progress)
+- 🚀 Running [vagaremota.dev](https://vagaremota.dev) — remote-jobs platform built solo with AI agents (details below)
 - 🔨 Just shipped **two MCP servers** — same protocol, two ecosystems: [iam-mcp-server](https://github.com/bernacamargo/iam-mcp-server) (Kotlin + Spring AI, identity governance) and [incident-mcp-server](https://github.com/bernacamargo/incident-mcp-server) (Go + official go-sdk, on-call response). Both policy-enforced, audited, tested, and released.
 - 📫 [LinkedIn](https://www.linkedin.com/in/bernardocamargo/)
 
