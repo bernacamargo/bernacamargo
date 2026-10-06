@@ -23,7 +23,7 @@ A **remote-jobs platform for the Brazilian market** that I built and run solo �
 
 ## AI-native workflow
 
-Shipping a platform solo at this speed takes a **harness**, not just a chat window — the same discipline I brought to teams (at QuintoAndar I created AI Agent Skills used across the group):
+Shipping a platform solo at this speed takes a **harness**, not just a chat window — the same discipline I brought to teams (at QuintoAndar I created AI Agent Skills used across the group). The full playbook is open source: **[ai-native-harness](https://github.com/bernacamargo/ai-native-harness)**.
 
 - **Agent skills + AGENTS.md conventions** — repo-level playbooks encoding domain context and quality bars, so every agent session starts with senior-engineer context instead of rediscovering it
 - **MCP tool integrations** — agents act through typed tools with guardrails, not raw shell access; I build my own, like [iam-mcp-server](https://github.com/bernacamargo/iam-mcp-server) and [incident-mcp-server](https://github.com/bernacamargo/incident-mcp-server)
