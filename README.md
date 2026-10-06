@@ -24,7 +24,7 @@ I care about the boring things that make systems work in production: observabili
 ## Now
 
 - 🎓 Postgraduate degree in **Software Architecture** @ FIAP (in progress)
-- 🔨 Shipped [iam-mcp-server](https://github.com/bernacamargo/iam-mcp-server) — an MCP server in **Kotlin + Spring AI** with server-side IAM policy and audit logging. Building the Go twin next: same protocol, two ecosystems.
+- 🔨 Just shipped **two MCP servers** — same protocol, two ecosystems: [iam-mcp-server](https://github.com/bernacamargo/iam-mcp-server) (Kotlin + Spring AI, identity governance) and [incident-mcp-server](https://github.com/bernacamargo/incident-mcp-server) (Go + official go-sdk, on-call response). Both policy-enforced, audited, tested, and released.
 - 📫 [LinkedIn](https://www.linkedin.com/in/bernardocamargo/)
 
 ---
