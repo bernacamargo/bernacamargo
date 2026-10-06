@@ -1,6 +1,6 @@
 # Hi, I'm Bernardo Camargo 👋
 
-**Senior Software Engineer** — 10 years building and operating distributed systems across Proptech and Fintech, now focused on agent infrastructure with MCP.
+**Senior Software Engineer** — 10 years shipping software, from educational platforms and consulting projects to distributed systems in Proptech and Fintech, now focused on agent infrastructure with MCP.
 
 I care about the boring things that make systems work in production: observability, resilience patterns, and clean boundaries between domain and infrastructure. That toolkit transfers — any domain, any kind of problem a backend can throw at you.
 
