@@ -21,6 +21,14 @@ A **remote-jobs platform for the Brazilian market** that I built and run solo �
 - **AI layer** — Gemini-powered CV→job fit scoring (0–100) and AI-assisted cover letters, privacy-first by design: CVs are analyzed in the moment and never stored
 - **Operations** — served through a Caddy reverse proxy with hardened security headers (CSP, HSTS, nosniff) on my own VPS; a live product with real users and paid Pro plans
 
+## AI-native workflow
+
+Shipping a platform solo at this speed takes a **harness**, not just a chat window — the same discipline I brought to teams (at QuintoAndar I created AI Agent Skills used across the group):
+
+- **Agent skills + AGENTS.md conventions** — repo-level playbooks encoding domain context and quality bars, so every agent session starts with senior-engineer context instead of rediscovering it
+- **MCP tool integrations** — agents act through typed tools with guardrails, not raw shell access; I build my own, like [iam-mcp-server](https://github.com/bernacamargo/iam-mcp-server) and [incident-mcp-server](https://github.com/bernacamargo/incident-mcp-server)
+- **Git worktree strategies** — several agent sessions running in parallel across isolated worktrees and merging clean: solo speed without merge chaos
+
 ## Languages
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
